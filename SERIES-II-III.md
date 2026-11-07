@@ -2,7 +2,11 @@
 
 Destino previsto: https://github.com/Cindy18-5/admin-productos
 
-Esta copia contiene las tres pruebas de la Serie II y el workflow de Cypress del curso. La publicacion y la evidencia de la Serie III estan pendientes de acceso autorizado al fork de Cindy18-5. Las ejecuciones y el PR de otra cuenta no son evidencia de este repositorio.
+Este repositorio publico contiene las tres pruebas de la Serie II y el workflow de Cypress del curso. Pull Request propio: https://github.com/Cindy18-5/admin-productos/pull/1
+
+Evidencia del CI rojo: https://github.com/Cindy18-5/admin-productos/actions/runs/42391963974
+
+La falla intencional esperaba siete filas cuando habia seis. Se descargaron sus videos, capturas y logs antes de corregir la expectativa a seis. La ejecucion del commit de correccion puede consultarse en los checks del Pull Request.
 
 ## Serie II
 
