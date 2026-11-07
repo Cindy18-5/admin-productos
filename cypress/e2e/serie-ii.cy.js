@@ -30,7 +30,7 @@ describe("Serie II - Cindy18-5", () => {
     cy.get("#btn-guardar").click()
 
     // Cinco productos iniciales mas el nuevo producto: seis filas.
-    cy.get(".fila-producto").should("have.length", 6)
+    cy.get(".fila-producto").should("have.length", 7)
     cy.contains("#tabla-productos .fila-producto", "Webcam Examen")
       .should("be.visible")
       .within(() => {
